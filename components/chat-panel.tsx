@@ -117,7 +117,7 @@ export function ChatPanel({ messages, query }: ChatPanelProps) {
         'fixed bottom-8 left-0 right-0 top-10 mx-auto h-screen flex flex-col items-center justify-center'
       }
     >
-       <img src="/images/kuppa2.gif" alt="Cat" className="w-100 h-22 mx-auto mb-4"  style={{ width: '40%', height: '20%' }} />
+    <img src="/images/kuppa2.gif" alt="Cat" className="w-full max-w-xs md:max-w-md lg:max-w-lg mx-auto mb-4" style={{ height: 'auto' }} />
       <form onSubmit={handleSubmit} className="max-w-2xl w-full px-6">
         <div className="relative flex items-center w-full">
           <Textarea
