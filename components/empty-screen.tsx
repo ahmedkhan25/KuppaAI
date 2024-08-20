@@ -11,12 +11,12 @@ const exampleMessages = [
     message: 'Why is Nvidia growing rapidly?'
   },
   {
-    heading: 'How does the Vercel AI SDK work?',
-    message: 'How does the Vercel AI SDK work?'
+    heading: 'How does the LangGraph AI framework work',
+    message: 'How does the LangGraph AI framework work'
   },
   {
-    heading: 'Tesla vs Rivian',
-    message: 'Tesla vs Rivian'
+    heading: 'Seattle vs San Fransisco -Which has a better quality of life?',
+    message: 'Seattle vs San Fransisco -Which has a better quality of life?'
   }
 ]
 export function EmptyScreen({
